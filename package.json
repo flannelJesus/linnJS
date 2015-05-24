@@ -1,0 +1,19 @@
+{
+  "name": "linnJS",
+  "version": "0.0.1",
+  "description": "wrapper for linnworks api",
+  "main": "index.js",
+  "author": "Sam Ross",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "request": "^2.55.0",
+    "request-promise": "^0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
