@@ -1,5 +1,5 @@
 {
-  "name": "linnJS",
+  "name": "linnjs",
   "version": "0.0.1",
   "description": "wrapper for linnworks api",
   "main": "index.js",
@@ -9,7 +9,6 @@
     "test": "test"
   },
   "dependencies": {
-    "request": "^2.55.0",
     "request-promise": "^0.4.2"
   },
   "repository" : {

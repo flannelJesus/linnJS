@@ -4,7 +4,9 @@ The linnworks api, as documented [here](http://apidoc.linnworks.net/Home/), is a
 
 All it does right now is initalize the connection for you and provide you with a Promise-based interface for sending `post` requests to the server.
 
-Assuming you've put the repo in your `node_modules` folder (I'll soon work out how to get this on npm), this is how you might use it:
+Install by `npm install linnjs`.
+
+This is how you might use it:
 
 ```js
 var linnJS = require('linnJS');
