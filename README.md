@@ -6,7 +6,7 @@ All it does right now is initalize the connection for you and provide you with a
 
 Assuming you've put the repo in your `node_modules` folder (I'll soon work out how to get this on npm), this is how you might use it:
 
-```
+```js
 var linnJS = require('linnJS');
 linnJS.initialize(process.env.linnworksusername, process.env.linnworkspw)
     .then(function(api){
@@ -27,6 +27,6 @@ The example above, `api.post('ImportExport/AreExportsEnabled')`, is how you'd ca
 
 Here's an example where you'd have to post some data as well ([for this method](http://apidoc.linnworks.net/Home/ApiMethod/EnableExports)):
 
-```
+```js
 api.post('ImportExport/EnableExports', {enable:true});
 ```
