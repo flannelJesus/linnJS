@@ -8,8 +8,9 @@ function initializeAPI(username, password) {
         form: {
             userName: username,
             password: password
-        }})
-        .then(function(response){
+        }
+    })
+        .then(function (response) {
             var rs = JSON.parse(response)[0];
             var id = rs.Id;
             return request.post(baseURL + 'Auth/Authorize', {
@@ -17,9 +18,10 @@ function initializeAPI(username, password) {
                     userName: username,
                     password: password,
                     userId: id
-                }});
+                }
+            });
         })
-        .then(function(response){
+        .then(function (response) {
             var rs = JSON.parse(response);
             return linnAPI(rs.Server, rs.Token);
         });
