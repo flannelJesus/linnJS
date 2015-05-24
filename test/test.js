@@ -1,6 +1,5 @@
 var linnJS = require('../index');
 
-//linnjs.initialize(process.env.linnworksusername, process.env.linnworkspw);
 linnJS.initialize(process.env.linnworksusername, process.env.linnworkspw)
     .then(function(api){
         api.post('ImportExport/AreExportsEnabled')

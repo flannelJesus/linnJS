@@ -1,6 +1,6 @@
 {
   "name": "linnjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "wrapper for linnworks api",
   "main": "index.js",
   "author": "Sam Ross",
